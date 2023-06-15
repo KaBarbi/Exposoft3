@@ -1,0 +1,30 @@
+/* estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cont-ender {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* estilos para cada endereço */   
+.enderecos {
+  margin-bottom: 20px;
+}
+
+.card-ender {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ender-p {
+  margin: 0;
+  line-height: 1.5;
+}

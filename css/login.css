@@ -1,0 +1,103 @@
+body{
+    background-color: #ACACAC;
+}
+
+.form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.iconcl{
+    color: blue;
+    font-size: 35px;
+}
+
+.container-cad{
+    background-color: #83b4ff;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 25vw;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+.btn{
+    color: white ;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+    width: 8vw;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+label{
+    font-family: Georgia;
+}
+
+input{
+    border-radius: 10px;
+    width: 17vw;
+    height: 15px;
+}
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+
+    .container-cad{
+        border: solid black 2px;
+        border-radius: 5px;
+        width: 44vw;
+        box-shadow: 10px 10px 20px black;
+    
+    }
+    
+    .btn{
+        color: white ;
+        margin-top: 20px;
+        background-color: black;
+        border-radius: 10px;
+        width: 12vw;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    input{
+        border-radius: 10px;
+        width: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 999px) and (min-width: 600px) {
+
+    .container-cad{
+        border: solid black 2px;
+        border-radius: 5px;
+        width: 33vw;
+        box-shadow: 10px 10px 20px black;
+    
+    }
+    
+    .btn{
+        color: white ;
+        margin-top: 20px;
+        background-color: black;
+        border-radius: 12px;
+        width: 12vw;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    input{
+        border-radius: 10px;
+        width: 25vw;
+    }
+
+}

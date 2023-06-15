@@ -1,0 +1,108 @@
+body {
+    background-color: #acacac;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Cabeçalho da tabela */
+thead {
+    background-color: #f8f8f8;
+}
+
+/* Linha do corpo da tabela */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Colunas */
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Entrada de quantidade */
+input[type="text"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Botões */
+input[type="submit"],
+a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #0000ff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* botao remover produto carrinho */
+.remo-prod-btn {
+    display: inline-block;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+}
+.remo-prod-btn:hover {
+    background-color: #ff0404;
+    transition: background-color 0.3s ease;
+}
+
+/* botao remover endereço */
+.remover-btn {
+    margin: 0;
+    background-color: #ff0404;
+    padding: 1px;
+    width: 10%;
+    transition: background-color 0.3s ease;
+}
+/* botao remover endereço hover */
+.remover-btn:hover {
+    background-color: #c40000;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover,
+a:hover {
+    background-color: #0000ff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    input[type="text"] {
+        width: 30px;
+    }
+}
