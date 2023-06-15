@@ -238,8 +238,8 @@ if (isset($_POST['fimcomp'])) {
         echo "<script>alert('Seu carrinho está vazio');</script>";
     } else {
         foreach ($_SESSION['carrinho'] as $idprod => $qtd) {
-            // Envia os pedidos para o banco de dados.
-            $stmt = mysqli_query($mysql, "INSERT INTO pedidos (idprod, idcli, idender, qtd, totalped) VALUES ('$idprod', '$usuario', '$enderecoid2', '$qtd', '$total')");
+            // envia o pedidos para o banco de dados
+            $stmt = mysqli_query($mysql, "INSERT INTO pedidos (idprod,idcli,idender,qtd,totalped) VALUES ('$idprod','$usuario','$enderecoid2','$qtd','$total')");
         }
         unset($_SESSION['carrinho']);
         echo "<script>window.location.href = 'compra.php';</script>";

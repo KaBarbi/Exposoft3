@@ -257,7 +257,7 @@
                 </div>
                 <div class="footer-col">
                     <img class="img-footer" src="./img/logoalcina.jpg" alt="logo alcina">
-                    <img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo">
+                    <a href=""><img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo"></a>
                 </div>
             </div>
         </div>
