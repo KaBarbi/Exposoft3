@@ -222,35 +222,35 @@
                 <div class="footer-col">
                     <h4>Equipe de Devs</h4>
                     <ul>
-                        <li><a href="#">Kaue Barbi</a></li>
-                        <li><a href="#">Miguel Arcanjo</a></li>
-                        <li><a href="#">Felipe Moya</a></li>
-                        <li><a href="#"></a></li>
+                        <li><a>Kaue Barbi</a></li>
+                        <li><a>Miguel Arcanjo</a></li>
+                        <li><a>Felipe Moya</a></li>
+                        <li><a></a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4>Everyday Skateboard</h4>
                     <ul>
-                        <li><a href="#">Alcina Dantas Feijão</a></li>
-                        <li><a href="#">35° Exposoft</a></li>
-                        <li><a href="#">(11) 4224-0679</a></li>
-                        <li><a href="#">mais informações</a></li>
+                        <li><a>Alcina Dantas Feijão</a></li>
+                        <li><a>35° Exposoft</a></li>
+                        <li><a>(11) 4224-0679</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Redes Socias</h4>
                     <!-- btns com links para as redes sociais -->
                     <div class="social-link">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a><i class="fa-brands fa-facebook"></i></a>
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                        <a><i class="fa-brands fa-twitter"></i></a>
+                        <a><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="footer-col">
                     <img class="img-footer" src="./img/logoalcina.jpg" alt="logo alcina">
                     <a href=""><img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo"></a>
+                    <!-- <img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo"> -->
                 </div>
             </div>
         </div>
