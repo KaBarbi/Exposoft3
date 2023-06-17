@@ -215,10 +215,11 @@
         <div class="botoes">
             <!-- btn de finalizar compra que redireciona para a pagina compra -->
             <a href="compra.php"><input type="submit" value="Finalizar Compra" name="fimcomp"></a> <br>
-            <!-- btn para adicionar novo endereco -->
-            <a href="endereco.php">Adicionar endereço novo</a>
             <!-- btn para a home para adicionar novos produtos -->
             <a href="index.php">Continuar Comprando</a>
+            <!-- btn para adicionar novo endereco -->
+            <a href="endereco.php">Adicionar endereço novo</a>
+
         </div>
 </form>
 </body>

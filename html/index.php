@@ -190,7 +190,6 @@
                         <li><a>Kaue Barbi</a></li>
                         <li><a>Miguel Arcanjo</a></li>
                         <li><a>Felipe Moya</a></li>
-                        <li><a></a></li>
                     </ul>
                 </div>
 
