@@ -1,18 +1,17 @@
 // Confirmar se as senhas batem
-alert('Cadastro Existente.');
 
 function confereSenha() {
-    const senha = document.querySelector('input[name=senha]');
-    const confirma = document.querySelector('input[name=confirma]');
+    const senha = document.querySelector("input[name=senha]");
+    const confirma = document.querySelector("input[name=confirma]");
 
     if (confirma.value === senha.value) {
-        confirma.setCustomValidity('');
+        confirma.setCustomValidity("");
     } else {
-        confirma.setCustomValidity('As senhas não conferem');
+        confirma.setCustomValidity("As senhas não conferem");
     }
 }
 
-// função cpf 
+// função cpf
 function validateCPF(cpf) {
     let cpfInput = document.getElementById("cpf-input").value;
     var sum;
@@ -29,12 +28,14 @@ function validateCPF(cpf) {
     if (cpf == "88888888888") return false;
     if (cpf == "99999999999") return false;
 
-    for (i = 1; i <= 9; i++) sum = sum + parseInt(cpf.substring(i - 1, i)) * (11 - i);
+    for (i = 1; i <= 9; i++)
+        sum = sum + parseInt(cpf.substring(i - 1, i)) * (11 - i);
     rest = (sum * 10) % 11;
 
     if (rest == parseInt(cpf.substring(9, 10))) {
         sum = 0;
-        for (i = 1; i <= 10; i++) sum = sum + parseInt(cpf.substring(i - 1, i)) * (12 - i);
+        for (i = 1; i <= 10; i++)
+            sum = sum + parseInt(cpf.substring(i - 1, i)) * (12 - i);
         rest = (sum * 10) % 11;
         if (rest == parseInt(cpf.substring(10, 11))) {
             return true;
@@ -43,8 +44,7 @@ function validateCPF(cpf) {
     return false;
 }
 
-
-// log cpf 
+// log cpf
 // mostra alerta na tela se cpf é valido ou não
 document.getElementById("btn-enviar").addEventListener("click", function () {
     var cpf = document.getElementById("cpf-input").value;
@@ -54,4 +54,3 @@ document.getElementById("btn-enviar").addEventListener("click", function () {
         alert("CPF inválido");
     }
 });
-

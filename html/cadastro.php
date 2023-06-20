@@ -97,9 +97,9 @@
 
             <br>
 
-            <!-- Complemento -->
+            <!-- Complemento -->    
             <div>
-                <label>Complemento</label>
+                <label>Complemento (opcional)</label>
                 <br>
                 <input type="text" name="complemento">
             </div>

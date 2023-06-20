@@ -14,7 +14,7 @@
     <!-- Formulario -->
 
     <form class="form" action="" method="post">
-        <h2 class="h2ender">Quer cadastrar um novo endereço?</h2>
+        <h2 class="h2ender">Quer cadastrar outro endereço?</h2>
 
         <div class="container-cad">
 
