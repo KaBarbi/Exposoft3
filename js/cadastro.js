@@ -13,6 +13,7 @@ function confereSenha() {
 
 // função cpf
 function validateCPF(cpf) {
+    cpf = cpf.replace(/\D/g, ""); // Remove caracteres não numéricos
     let cpfInput = document.getElementById("cpf-input").value;
     var sum;
     var rest;
@@ -26,7 +27,7 @@ function validateCPF(cpf) {
     if (cpf == "66666666666") return false;
     if (cpf == "77777777777") return false;
     if (cpf == "88888888888") return false;
-    if (cpf == "99999999999") return false;
+    // if (cpf == "99999999999") return false;
 
     for (i = 1; i <= 9; i++)
         sum = sum + parseInt(cpf.substring(i - 1, i)) * (11 - i);
@@ -46,11 +47,16 @@ function validateCPF(cpf) {
 
 // log cpf
 // mostra alerta na tela se cpf é valido ou não
-document.getElementById("btn-enviar").addEventListener("click", function () {
-    var cpf = document.getElementById("cpf-input").value;
-    if (validateCPF(cpf)) {
-        return true;
-    } else {
-        alert("CPF inválido");
-    }
-});
+document
+    .getElementById("btn-enviar")
+    .addEventListener("click", function (event) {
+        var cpfInput = document.getElementById("cpf-input");
+        var cpf = cpfInput.value;
+
+        if (validateCPF(cpf)) {
+            return true;
+        } else {
+            alert("CPF inválido");
+            event.preventDefault(); // Impede o envio do formulário caso o CPF seja inválido
+        }
+    });

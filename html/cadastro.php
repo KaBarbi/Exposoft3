@@ -148,7 +148,7 @@
             <br>
 
             <!-- Botões -->
-            <button id="btn-enviar" class="btn" name="cadastrar" onclick="if (!validateCPF(document.getElementById('cpf-input').value)) return false;">Cadastrar</button>
+            <button id="btn-enviar" class="btn" name="cadastrar">Cadastrar</button>
         </div>
         <br>
         <!-- caso seja cadastrado link para a pagina de logar -->
