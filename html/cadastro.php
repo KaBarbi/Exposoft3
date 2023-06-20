@@ -34,7 +34,7 @@
             <div>
                 <label>Celular</label>
                 <br>
-                <input type="text" maxlength="14" name="cel" required>
+                <input type="text" maxlength="14" name="cel" required oninput="maskCelular(this)">
             </div>
             <br>
             <!-- E-mail -->
@@ -48,7 +48,7 @@
             <div>
                 <label for="cpf">CPF</label>
                 <br>
-                <input type="text" maxlength="11" id="cpf-input" name="cpf" required>
+                <input type="text" maxlength="14" id="cpf-input" name="cpf" required oninput="maskCPF(this)">
             </div>
             <br>
 
@@ -56,7 +56,7 @@
             <div>
                 <label>CEP</label>
                 <br>
-                <input type="text" id="cep" name="cep" maxlength="8" minlength="8" required />
+                <input type="text" id="cep" name="cep" maxlength="8" minlength="8" required oninput="maskCEP(this)" />
             </div>
 
             <br>
@@ -97,7 +97,7 @@
 
             <br>
 
-            <!-- Complemento -->    
+            <!-- Complemento -->
             <div>
                 <label>Complemento (opcional)</label>
                 <br>
@@ -160,6 +160,7 @@
 </body>
 <!-- Script -->
 <script src="../js/cadastro.js"></script>
+<script src="../js/mascara.js"></script>
 
 </html>
 
