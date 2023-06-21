@@ -14,7 +14,7 @@
     <!-- Formulario -->
 
     <form class="form" action="" method="post">
-        <h2 class="h2ender">Quer cadastrar outro endereço?</h2>
+        <h2 class="h2ender">Deseja cadastrar outro endereço?</h2>
 
         <div class="container-cad">
 
@@ -56,7 +56,7 @@
 
             <!-- Numero da Residencia -->
             <div>
-                <label>Numero da Residencia</label>
+                <label>Numero da Residência</label>
                 <br>
                 <input type="text" name="numero" required>
             </div>
