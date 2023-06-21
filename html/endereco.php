@@ -56,7 +56,7 @@
 
             <!-- Numero da Residencia -->
             <div>
-                <label>Numero da Residencia</label>
+                <label>Numero da Residência</label>
                 <br>
                 <input type="text" name="numero" required>
             </div>
