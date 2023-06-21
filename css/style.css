@@ -240,6 +240,11 @@ h1 {
 
 /* TODO: FOOTER CSS */
 
+.pFooter {
+    color: #5a5a5a;
+    text-transform: lowercase;
+}
+
 .container-footer {
     max-width: 1170px;
     margin: auto;
