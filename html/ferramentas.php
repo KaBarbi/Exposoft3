@@ -189,6 +189,7 @@
                 <div class="footer-col">
                     <img class="img-footer" src="./img/logoalcina.jpg" alt="logo alcina">
                     <a href=""><img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo"></a>
+                    <p class="pFooter">© Atenção esse site é apenas para fins educacionais e sem fins lucrativos.</p>
                     <!-- <img class="img-footer" src="./img/logoexpo.jpg" alt="logo expo"> -->
                 </div>
             </div>
