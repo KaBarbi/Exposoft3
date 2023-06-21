@@ -1,16 +1,16 @@
 <!-- conexao externa com o banco de dados -->
 <?php
 // conexao com o servitor mj
-// $local="localhost";
-// $user="ozzy";
-// $senha="Kaue05052005";
-// $dtbase="skate";
+$local="localhost";
+$user="u413309708_ozzy";
+$senha="Kaue05052005";
+$dtbase="u413309708_skate";
 
 // conexao com o local
-$local = "localhost";
-$user = "root";
-$senha = "";
-$dtbase = "skate";
+// $local = "localhost";
+// $user = "root";
+// $senha = "";
+// $dtbase = "skate";
 
 $mysql= new mysqli($local,$user,$senha,$dtbase);
 
