@@ -218,7 +218,7 @@
             <!-- btn para a home para adicionar novos produtos -->
             <a href="index.php">Continuar Comprando</a>
             <!-- btn para adicionar novo endereco -->
-            <a href="endereco.php">Adicionar endereço novo</a>
+            <a href="endereco.php">Adicionar outro endereço</a>
 
         </div>
 </form>
