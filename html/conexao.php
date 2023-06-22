@@ -1,6 +1,6 @@
 <!-- conexao externa com o banco de dados -->
 <?php
-// conexao com o servitor mj
+// conexao com o servitor mj para expo
 $local="localhost";
 $user="u413309708_ozzy";
 $senha="Kaue05052005";
