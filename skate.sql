@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18/06/2023 às 22:06
+-- Tempo de geração: 23/06/2023 às 03:09
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.0.28
 
@@ -43,7 +43,7 @@ CREATE TABLE `adm` (
 
 INSERT INTO `adm` (`idadm`, `nome`, `user`, `cel`, `email`, `cpf`, `senha`) VALUES
 (1, 'Felipe Moya Figueiredo', 'felp_mf', '(11)97896-1047', 'felipemoya.figueiredo@scseduca.com.br', '111.111.111-11', '1209g'),
-(2, 'Kaue Barbi', 'BS7', '(11)95238-7184', 'kaue.barbi@scseduca.com.br', '222.222.222.22', '1234567'),
+(2, 'Kaue Barbi', 'BS7', '(11)95238-7184', 'kaue.barbi@scseduca.com.br', '222.222.222.22', '999'),
 (3, 'Miguel Arcanjo Buglio', 'Ozzy', '(11)93763-2723', 'miguel.buglio@scseduca.com.br', '333.333.333-33', 'Ozzy1234'),
 (4, 'admin', 'admin', '0000', 'adm@gmail.com', '0000', 'papaicris7');
 
@@ -161,10 +161,14 @@ INSERT INTO `endercli` (`idender`, `idcli`, `cep`, `estado`, `cidade`, `bairro`,
 (2, 19, '59012120', 'RN', 'Natal', 'Ribeira', 'Rua Coronel Felinto Elízio', '10', '', 1),
 (3, 19, '44071436', 'BA', 'Feira de Santana', 'Santo Antônio dos Prazeres', 'Rua Itaguatiara', '83', '', 1),
 (4, 1, '71996050', 'DF', 'Brasília', 'Setor Habitacional Arniqueira (Água', 'Conjunto SHA Conjunto 6 Chácara 6', '33', '', 1),
-(5, 1, '79823503', 'MS', 'Dourados', 'Altos do Indaiá', 'Rua Thealmo João Ioris', '56', '', 1),
+(5, 1, '79823503', 'MS', 'Dourados', 'Altos do Indaiá', 'Rua Thealmo João Ioris', '56', '', 0),
 (6, 3, '52120165', 'PE', 'Recife', 'Água Fria', 'Rua Angelim', '21', '', 1),
 (7, 3, '64212215', 'PI', 'Parnaíba', 'Rodoviária', 'Rua Ceará', '8', '', 1),
-(8, 2, '09530530', 'SP', 'Sao Caetano', 'ceramica', 'Noruga', '69', '', 1);
+(8, 2, '09530530', 'SP', 'Sao Caetano', 'ceramica', 'Noruga', '69', '', 1),
+(9, 20, '0956-443', 'MA', 'Goias', 'Ana', 'mesa', '123', 'jjdkdk', 1),
+(10, 21, '1954-200', 'PR', 'gffhgfesdgverd', 'fghfdgdgtth', 'sdgiujfjieswd', '65625', '', 1),
+(11, 22, '11111-11', 'RJ', 'asdadasd', 'asdasdasd', 'asdasdasd', 'ads', '', 1),
+(12, 23, '22222-22', 'PA', 'asdasd', 'asddasd', 'adad', 'sdas', '', 1);
 
 -- --------------------------------------------------------
 
@@ -240,7 +244,7 @@ ALTER TABLE `adm`
 -- AUTO_INCREMENT de tabela `cadcli`
 --
 ALTER TABLE `cadcli`
-  MODIFY `idcli` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `idcli` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT de tabela `cadprod`
@@ -252,13 +256,13 @@ ALTER TABLE `cadprod`
 -- AUTO_INCREMENT de tabela `endercli`
 --
 ALTER TABLE `endercli`
-  MODIFY `idender` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `idender` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT de tabela `pedidos`
 --
 ALTER TABLE `pedidos`
-  MODIFY `idpedido` int(40) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idpedido` int(40) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

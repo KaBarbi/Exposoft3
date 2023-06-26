@@ -14,13 +14,10 @@
 
 <body>
     <!-- iamgem da logo para voltar a pagian de adm (ao clicar) -->
-
     <a href="../html/adm.php"><img src="img/logositeoff.png" alt="Logo da empresa" class="logo" /></a>
     <!-- Formulario com a parte para cadastrar produto-->
     <form class="form" method="post">
-
         <div class="container-cad">
-
             <!-- Nome do Produto -->
             <div>
                 <label>Nome do Produto</label>
@@ -66,7 +63,7 @@
                 <input type="text" name="img" value="img/" required>
             </div>
             <br>
-            <!-- Botões -->
+            <!-- Botões de enviar as informaçoes do produto adicionado -->
             <button id="btn-enviar" class="btn" name="cadastrar" onclick="validarFormulario()">Enviar</button>
         </div>
 
@@ -91,7 +88,7 @@
 
             // Redirecionar para a página de administração após a atualização da visibilidade do produto
             if ($resultadoAtualizarVisibilidade) {
-                header("Location: ../html/admprod.php"); 
+                header("Location: ../html/admprod.php");
                 exit();
             } else {
                 echo "<script>alert('Erro ao atualizar a visibilidade do produto.');</script>";
@@ -106,7 +103,7 @@
         while ($ln = mysqli_fetch_assoc($qr)) {
             echo '<div class="product-card">';
             echo '<div class="product">';
-            echo '<div class="image">'; 
+            echo '<div class="image">';
             echo '<img class="product-image" src="' . $ln['img'] . '" alt="" />'; //exibi a imagem do produto
             echo '</div>';
             echo '<div class="title">';
@@ -139,7 +136,7 @@ include("conexao.php");
 if (isset($_POST['cadastrar'])) {
 
 
-//  pega as informaçoes digitadas na tabela e coloca dentro da variavel
+    //  pega as informaçoes digitadas na tabela e coloca dentro da variavel
     $prodnome = $_POST['prodnome'];
     $tipo = $_POST['tipo'];
     $preco = $_POST['preco'];

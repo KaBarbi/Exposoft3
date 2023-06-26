@@ -1,41 +1,43 @@
 body{
-    background-color: #ACACAC;
+    background-color: #ACACAC;/*  cor de fundo*/
 }
-
+/* logo do site como botao para voltar */
 .logo {
-    margin-left: 20px;
-    width: 170px;
-    height: auto;
+    margin-left: 20px;/*  margin na esquerda*/
+    width: 170px;/*  largura*/
+    height: auto;/*  altura*/
 }
-
+/* container com todos os botoes do adm */
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50vh;
+    display: flex; /* tela fexivel */
+    flex-direction: column;/*  direçao dos itens em coluna*/
+    justify-content: space-evenly;/*  espaçemtno igual entre os intens*/
+    align-items: center;/*  alinha os item no centro*/
+    height: 50vh;/*  altura */
 }
 
+/* botoes da pagina que redirecionam para a outra outras paginas de adm */
   .button {
-    display: inline-block;
-    padding: 10px 20px;
-    width: 300px;
-    font-size: 16px;
-    background-color: rgb(64, 64, 255);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 0 10px;
-    text-decoration: none;
+    display: inline-block;/*  tela fix*/
+    padding: 10px 20px;/*  espaçamento interno*/
+    width: 300px;/*  largura*/
+    font-size: 16px;/*  tamanho da fonte*/
+    background-color: rgb(64, 64, 255);/*  cor de fundo*/
+    color: #fff;/*  cor padrao*/
+    border: none;/*  sem borda*/
+    border-radius: 4px;/* arredondar borad */
+    cursor: pointer;/* tipo do mouse */
+    margin: 0 10px;/*  margin externa*/
+    text-decoration: none;/*  decoraçção do texto*/
   }
 
+  /* responsividade da pagina de adm */
   @media screen and (max-width: 600px) {
     .container {
-      flex-direction: column;
+      flex-direction: column;/*  direção dos itens em coluna*/
     }
 
     .button {
-      margin: 10px 0;
+      margin: 10px 0;/*  margin externa*/
     }
   }

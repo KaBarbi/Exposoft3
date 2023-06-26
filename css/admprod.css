@@ -1,71 +1,73 @@
+/* formuylario para adicionar novo prudoto no site */
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px auto;
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: flex;/*  tela flexivel*/
+    flex-direction: column;/*  direçaõs dos itens coluna*/
+    align-items: center;/*  alinha os itens no centro*/
+    margin: 50px auto;/*  margin externa*/
+    width: 50%;/*  largura*/
+    padding: 20px;/*  espaçamento interno*/
+    border: 1px solid #ccc;/*  borda solida*/
+    border-radius: 5px;/*  arredondar borda*/
 }
-
+/* label do input do formulario, ex: nome do produto, preço do produto */
 label {
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: bold;/*  tipo da fonte*/
+    margin-bottom: 10px;/*  margin externa*/
 }
 
+/* inputs para adicioanr um novo produto no site, onde inserimos as informaçoes do novo produto */
 input[type="text"], input[type="number"], textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 10px;/* espaçamento interno */
+    margin-bottom: 20px;/*  margin externa*/
+    border-radius: 5px;/*  arredondar botao*/
+    border: 1px solid #ccc;/*  borda solida*/
+    font-size: 16px;/*  tamanho do texto*/
+    width: 100%;/*  largura*/
+    box-sizing: border-box;/*  tipo de box sizing*/
 }
-
+/* botao de enviar para adicionar o novo produto no site */
 .submit-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    background-color: #4CAF50;/*  cor de fundo*/
+    color: white;/*  cor padrao*/
+    padding: 10px 20px;/*  expaçamento interno*/
+    border: none;/* sme borda */
+    border-radius: 5px;/*  arredondar borda*/
+    cursor: pointer;/*  tipo do cursor*/
+    font-size: 16px;/*  tipo de fonte*/
 }
-
+/* configuração da lista de produtos do site */
 .product-list {
-    margin: 50px auto;
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin: 50px auto;/*  margin externa*/
+    width: 50%;/*  largura*/
+    padding: 20px;/*  espaçamento interno*/
+    border: 1px solid #ccc;/*  borda solida*/
+    border-radius: 5px;/*  arredondaar borda*/
 }
-
+/* configuração do titulo da lista de produtos  */
 .product-list h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center;/*  alinha os texto no centro*/
+    margin-bottom: 20px;/*  margin externa*/
 }
-
+/* configuração do card de produto no site */
 .product {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: flex;/* tela flexivel */
+    align-items: center;/*  alinha os itens no centro*/
+    justify-content: space-between;/*  espaçamento igual entre os itens*/
+    margin-bottom: 10px;/* margin externa */
+    padding: 10px;/*  espaçamento interno*/
+    border: 1px solid #ccc;/*  borda solida*/
+    border-radius: 5px;/*  arredondar borda*/
 }
-
+/* configuração do paragrafo da lista de produto */
 .product p {
-    margin: 0;
+    margin: 0;/*  sem margin*/
 }
-
+/* botao de remover o produto do site */
 .product .delete-btn {
-    background-color: #f44336;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #f44336;/*  cor de fundo*/
+    color: white;/*  cor padrao */
+    padding: 5px 10px;/*  espaçamento interno*/
+    border: none;/* sem borda */
+    border-radius: 5px;/*  arredondar borda*/
+    cursor: pointer;/*  tipo do mouse*/
 }

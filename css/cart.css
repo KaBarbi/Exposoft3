@@ -1,102 +1,104 @@
+/* configuração do fundo da pagiana */
 body {
-    background-color: #acacac;
+    background-color: #acacac;  /* muda a cor do fundo da pagina */
 }
 
-/* Tabela */
+/* Tabela de compra do produto*/
 table {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    border-collapse: collapse;
+    width: 100%; /* muda a largura para 100% */
+    max-width: 800px;  /* define o maximo de largura como 800px */
+    margin: 0 auto; /* deixa com margin 0 */
+    border-collapse: collapse; /* junta as bordas da tabela */
 }
 
 /* Cabeçalho da tabela */
 thead {
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; /* muda a cor de fuindo */
 }
 
 /* Linha do corpo da tabela */
 tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* muda a cor de fundo */
 }
 
 /* Colunas */
 th,
 td {
-    padding: 10px;
-    text-align: left;
+    padding: 10px; /* cira um espaçamento interno */
+    text-align: left; /*  aloinha o testo na esquerda */
 }
 
 th {
-    font-weight: bold;
+    font-weight: bold; /* muda a fonte do texto */
 }
 
 /* Entrada de quantidade */
 input[type="text"] {
-    width: 50px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    width: 50px;  /*  dlargura de 50px*/
+    padding: 5px; /* espaçamento interno de 5px */
+    border: 1px solid #ccc; /* borda de 1px solida  */
+    border-radius: 3px; /*  borda arredondada*/
 }
 
-/* Botões */
+/* Botões de finalizar compra, adicionar endereço e continuar comprando*/
 input[type="submit"],
 a {
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    margin: 10px auto;
-    padding: 10px;
-    background-color: #0000ff;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+    display: block; /* deixa o imput fixo */
+    width: 100%; /*  largura 100%*/
+    max-width: 200px; /* largura maxima 200px */
+    margin: 10px auto; /*  espaçamento externo  */
+    padding: 10px; /* espaçamento interno */
+    background-color: #0000ff; /*  cor do fundo */
+    color: #fff; /* cor padrao */
+    text-align: center; /*  alinah o testo no centro*/
+    text-decoration: none; /* tira a decoração do texto */
+    border: none; /*  tira a borda*/
+    border-radius: 3px; /*  deixa a borda arredondada*/
+    cursor: pointer; /* muda o cursor */
 }
 
 
 /* botao remover produto carrinho */
 .remo-prod-btn {
-    display: inline-block;
-    margin-top: 0;
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    color: #000;
-    border-radius: 50%;
+    display: inline-block; /*  deixa a tela fixa*/
+    margin-top: 0; /*  tira a margin do topo*/
+    width: 40px; /*  largura */
+    height: 40px; /*  altura*/
+    background-color: #fff; /*  cor de fundo*/
+    color: #000; /*  cor padrao*/
+    border-radius: 50%; /*  borda arredondada*/
 }
+/* configuração ao passar o mouse acima do botao remover produto carrinho  */
 .remo-prod-btn:hover {
-    background-color: #ff0404;
-    transition: background-color 0.3s ease;
+    background-color: #ff0404; /*  cor de fundo */
+    transition: background-color 0.3s ease; /*  animação*/
 }
 
 /* botao remover endereço */
 .remover-btn {
-    margin: 0;
-    background-color: #ff0404;
-    padding: 1px;
-    width: 10%;
-    transition: background-color 0.3s ease;
+    margin: 0; /* tira a margin */
+    background-color: #ff0404; /*  cor de fundo*/
+    padding: 1px; /*  espaçamento interno*/
+    width: 10%; /*  largura */
+    transition: background-color 0.3s ease; /*  animação*/
 }
 /* botao remover endereço hover */
 .remover-btn:hover {
-    background-color: #c40000;
-    text-decoration: none;
+    background-color: #c40000; /*  cor de fundo*/
+    text-decoration: none; /*  tira a decoraççao do texto*/
 }
-
+/* mudança de cor ao passar o mouse por cima do botao remover endereço hover */
 input[type="submit"]:hover,
 a:hover {
-    background-color: #0000ff;
+    background-color: #0000ff; /*  cor de fundo*/
 }
-
+/* mudança de cor ao passar o mouse por cima do botao remover endereço hover */
 a:hover {
-    color: #fff;
-    text-decoration: underline;
+    color: #fff; /*  cor padrao*/
+    text-decoration: underline; /* decoração do texto */
 }
 
-/* Responsividade */
+/* Responsividade da pagina*/
 @media screen and (max-width: 768px) {
     table {
         font-size: 12px;

@@ -1,30 +1,30 @@
 /* estilos gerais */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /*  fonte de texto*/
+  margin: 0;/*  tira a margin*/
+  padding: 0;/*  espaçamento interno*/
 }
 
 .cont-ender {
-  padding: 20px;
+  padding: 20px;/*  espaçamento interno*/
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: 0;/*  margin em cima*/
 }
 
 /* estilos para cada endereço */   
 .enderecos {
-  margin-bottom: 20px;
+  margin-bottom: 20px; /*  margin em baixo*/
 }
 
 .card-ender {
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  padding: 10px;
+  background-color: #f0f0f0; /*  cor de fundo*/
+  border-radius: 5px;/*  borda arredondada*/
+  padding: 10px;/*  espaçamento interno*/
 }
 
 .ender-p {
-  margin: 0;
-  line-height: 1.5;
+  margin: 0; /* tira margin */
+  line-height: 1.5;/*  altura da linha*/
 }

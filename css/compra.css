@@ -1,47 +1,47 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    background-color: #acacac;
+    font-family: Arial, sans-serif; /*  muda a fonte*/
+    margin: 0; /*   tira a margin*/
+    padding: 20px; /*  espaçamento interno*/
+    text-align: center; /* alinha o texto */
+    background-color: #acacac; /*  cor de fundo*/
 }
 
 h2 {
-    margin-top: 10%;
-    color: #000;
+    margin-top: 10%; /*  margin em cima*/
+    color: #000; /*  padrao*/
 }
 
 p {
-    color: #fff;
+    color: #fff; /*   cor padrao*/
 }
 
 a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    display: inline-block; /*  deixa fixa */
+    padding: 10px 20px; /*  espaçamento interno*/
+    margin-top: 20px; /*  margin em cima*/
+    background-color: #007bff; /* cor de fundo */
+    color: #fff; /*  cor padrao */
+    text-decoration: none; /*  decoração do texto*/
+    border-radius: 4px; /* arredonda a borda */
+    transition: background-color 0.3s; /*  animação*/
 }
 
 a:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /*  cor de fundo */
 }
 
 /* Estilos específicos */
 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 24px; /*  tamanho da fonte*/
+    margin-bottom: 10px; /*  margin em baixo*/
 }
 
 p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 18px;/*  tamanho da fonte*/
+    margin-bottom: 20px;/*  margin em baixo*/
 }
 
 a {
-    font-size: 20px;
+    font-size: 20px;/*  tamanho da fonte*/
 }
