@@ -280,293 +280,295 @@ h1 {
     box-sizing: border-box; /* define o tamanho da box */
     width: 50px; /* define a largura */
 }
-
+/*  visa o elemento ul dentro da classe .footer-col */
 .footer-col ul {
-    list-style: none;
+    list-style: none;/* visa uma lista não ordenada */
 }
-
+/* visa o link dos elementos li dentro do elemento ul dentro da classe footer-col */
 .footer-col ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #24262b;
-    display: block;
-    padding: 5px;
-    transition: all 0.3s ease;
+    font-size: 16px;/* define o tamanho da fonte */
+    text-decoration: none; /* remove a decoração do texto */
+    color: #24262b; /* define uma cor */
+    display: block; /* não modificar o posicionamento do elemento */
+    padding: 5px; /* define o espaçamento inferior */
+    transition: all 0.3s ease; /* define uma transição */
 }
-
+/* define uma configuração para quando o cursor do mouse passa por cima do link */
 .footer-col ul li a:hover {
-    background-color: #83b4ff;
+    background-color: #83b4ff; /* define uma cor */
 }
-
+/* define uma configuração para quando o cursor do mouse passa por cima do elemento li */
 .footer-col ul li:hover {
-    color: #fff;
-    padding-left: 6px;
+    color: #fff; /* define uma cor */
+    padding-left: 6px; /* define o espaçamento na parte inferior */
 }
-
+/* definição para o link dentro da classe .social-link dentro da classe .footer-col */
 .footer-col .social-link a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background: rgba(0, 0, 0, 0.2);
-    margin: 0 10px 10 0px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #000;
-    transition: all 0.5s ease;
+    display: inline-block; /* não modifica o posicionamento do elemento e deixa-o em linha */
+    height: 40px; /* define uma altura */
+    width: 40px; /* define uma largura */
+    background: rgba(0, 0, 0, 0.2); /* define uma cor de fundo */
+    margin: 0 10px 10 0px; /* define uma margem */
+    text-align: center; /* alinha os textos para o centro */
+    line-height: 40px; /* define a altura da linha */
+    border-radius: 50%; /* define uma borda redonda */
+    color: #000; /* define uma cor */
+    transition: all 0.5s ease; /* define uma transição */
 }
-
+/* define uma configuração para quando o cursor do mouse passa por cima do link dentro da classe .social-link */
 .footer-col .social-link a:hover {
-    color: #24262b;
-    background: #83b4ff;
+    color: #24262b; /* define uma cor */
+    background: #83b4ff; /* define uma cor de fundo */
 }
-
+/* define configurações para a classe .img-footer */
 .img-footer{
-    width: 100px;
-    height: auto;
-    padding: 5px;
-    margin-top: 2%;
+    width: 100px;/* define uma largura */
+    height: auto; /* define uma altura */
+    padding: 5px; /* define o espaçamento inferior */
+    margin-top: 2%; /* define uma margem para a parte superior */
 }
 
 /* ! RESPONSIVIDADE TABLET */
 @media (max-width: 800px) {
+    /* define uma configuração para classe .xuxu */
     .xuxu {
-        width: 700px;
-        height: auto;
+        width: 700px; /* define uma largura */
+        height: auto; /* define uma altura automatica */
     }
-
+    /* define uma configuração para classe .abobrinha */
     .abobrinha {
-        width: 700px;
-        height: auto;
+        width: 700px; /* define uma largura */
+        height: auto; /* define uma altura automatica */
     }
 
     /* TODO: css card de produtos */
-
+    /* define uma configuração para classe .container */
     .container {
-        width: 700px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        margin-left: 5px;
+        width: 700px; /* define uma largura */
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        flex-direction: row; /* define a direção do objeto */
+        justify-content: center; /* justifica o conteudo */
+        align-items: flex-start; /* alinha os itens */
+        flex-wrap: wrap; /* quebra de itens em linha */
+        margin-left: 5px; /* define uma margem */
     }
-
+    /* define uma configuração para classe .product dentro da classe .container */
     .container .product {
-        background: #fafafa;
-        padding: 7px;
-        margin: 20px;
-        text-align: center;
-        border-radius: 15px;
+        background: #fafafa; /* define uma cor de fundo */
+        padding: 7px; /* define um espaçamento na parte inferior */
+        margin: 20px; /* define uma margem */
+        text-align: center; /* alinha o texto para o centro */
+        border-radius: 15px; /* deixa a borda redonda */
     }
 
     /* TODO: videos css */
 
     .videos-all {
-        display: flex;
-        width: 500px;
-        margin-left: 170px;
-        justify-content: center;
-        flex-direction: column;
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        width: 500px; /* define uma largura */
+        margin-left: 170px; /* define uma margem para parte esquerda */
+        justify-content: center; /* justifica o conteudo para centro */
+        flex-direction: column; /* define a direção do objeto */
     }
 
     /* *Responsi menu */
-
+    /* define uma configuração para os objetos que tem esse ID */
     #menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-        background: #e7e7e7;
-        transition: 0.6s;
-        z-index: 1000;
-        height: 0px;
-        visibility: hidden;
-        overflow-y: hidden;
+        display: block; /* não modifica o posicionamento do objeto */
+        position: absolute; /* define uma posição absoluta */
+        width: 100%; /* define uma largura */
+        top: 70px; /* define um topo */
+        right: 0px; /* define um tamanho para parte direita */
+        background: #e7e7e7; /* define uma cor de fundo */
+        transition: 0.6s; /* define uma transição */
+        z-index: 1000; /* sobrepõe os itens que tem z-index menor */
+        height: 0px; /* define uma altura */
+        visibility: hidden; /* define uma visibilidade */
+        overflow-y: hidden; /* controlar o comportamento de exibição do conteúdo verticalmente */
     }
-
+    /* define uma configuração para classe .logo */
     .logo {
-        margin-left: 5px;
-        width: 150px;
-        height: auto;
+        margin-left: 5px; /* define uma margem */
+        width: 150px; /* define uma largura */
+        height: auto; /* define uma altura */
     }
-
+    /* define uma configuração para o id menu dentro do elemento que tenha o id nav e a classe .active */
     #nav.active #menu {
-        height: calc(100vh - 70px);
-        visibility: visible;
-        overflow-y: auto;
-        margin-top: 50px;
+        height: calc(100vh - 70px); /* define uma altura */
+        visibility: visible; /* define a visibilidade */
+        overflow-y: auto; /* controla a exibição do conteudo verticalmente */
+        margin-top: 50px; /* define uma margem para a parte superior */
     }
-
+    /* define uma configuração para o link dentro do id menu */
     #menu a {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        padding: 1rem 0; /* define o espaçamento inferior */
+        margin: 0 1rem; /* define uma margem */
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05); /*  define uma borda redonda */
     }
-
+    /* definições para o id btn-mobile */
     #btn-mobile {
-        display: flex;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: 0.5rem;
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        padding: 0.5rem 1rem; /* define o espaçamento inferior */
+        font-size: 1rem; /* define um tamanho para fonte */
+        border: none; /* remove a borda */
+        background: none; /* remove o fundo */
+        cursor: pointer; /* define o cursor para clicavel */
+        gap: 0.5rem; /* define o espaçamento entre os itens */
     }
-
+    /* definições para o id hamburger */
     #hamburger {
-        border-top: 2px solid;
-        width: 20px;
+        border-top: 2px solid; /* define uma borda na parte superior */
+        width: 20px; /* define uma largura */
     }
-
+    /* definições para antes e apos a transição do id hamburger */
     #hamburger::after,
     #hamburger::before {
-        content: "";
-        display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
+        content: ""; /*  define o conteudo para nada */
+        display: block; /* não modifica o posicionamento do objeto */
+        width: 20px; /* define a largura */
+        height: 2px; /* define uma altura */
+        background: currentColor; /* define a cor atual para o fundo */
+        margin-top: 5px; /* define uma margem para o topo */
+        transition: 0.3s; /* define uma trasição */
+        position: relative; /* define a posição para relativa */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active */
     #nav.active #hamburger {
-        border-top-color: transparent;
+        border-top-color: transparent; /* define uma cor para a borda do topo */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active antes */
     #nav.active #hamburger::before {
-        transform: rotate(135deg);
+        transform: rotate(135deg);/* faz uma rotação de 135 graus */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active depois */
     #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
+        transform: rotate(-135deg); /* faz uma rotação de -135 graus */
+        top: -7px; /* remove 7 pixeis do topo */
     }
 
     /* !footer */
     .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
+        width: 50%; /* define uma largura */
+        margin-bottom: 30px; /* define uma margem para parte inferior */
     }
 }
 
 /*! RESPONSIVIDADE MOBILE  */
 @media (max-width: 600px) {
+    /* define uma configuração para classe .xuxu */
     .xuxu {
-        width: 500px;
-        height: auto;
+        width: 500px; /* define uma largura */
+        height: auto;   /* define uma altura automatica */
     }
-
+    /* define uma configuração para classe .abobrinha */
     .abobrinha {
-        width: 500px;
-        height: auto;
+        width: 500px;/* define uma largura */
+        height: auto; /* define uma altura automatica */
     }
 
     /* TODO: css card de produtos */
-
+    /* define uma configuração para classe .container */
     .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        margin-left: 70px;
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        flex-direction: column; /* define uma direção para o objeto */
+        justify-content: space-evenly; /* justifica o conteudo */
+        align-items: flex-start; /* alinha os itens */
+        flex-wrap: nowrap; /* quebra os itens em linha */
+        margin-left: 70px; /* define uma margem */
     }
-
+    /* define uma configuração para classe .product dentro da classe .container */
     .container .product {
-        background: #fafafa;
-        padding: 7px;
-        margin: 20px;
-        text-align: center;
-        border-radius: 15px;
+        background: #fafafa; /* define uma cor de fundo */
+        padding: 7px; /* define o espaçamento inferior */
+        margin: 20px; /* define uma margem */ 
+        text-align: center; /* alinha os textos ao centro */
+        border-radius: 15px; /* deixa a borda redonda */
     }
 
     /* TODO: videos css */
 
     .videos-all {
-        display: flex;
-        margin-left: 50px;
-        flex-direction: column;
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        margin-left: 50px; /* define uma margem para esquerda */
+        flex-direction: column; /* define uma direção para o objeto */
     }
 
     /** responsiv menu aqui */
     #menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-        background: #e7e7e7;
-        transition: 0.6s;
-        z-index: 1000;
-        height: 0px;
-        visibility: hidden;
-        overflow-y: hidden;
+        display: block; /* não permite com que modifique o posicionamento do objeto */
+        position: absolute; /* define a posição absoluta */
+        width: 100%; /* define uma largura */
+        top: 70px; /* define um topo */
+        right: 0px; /* define a parte direita */
+        background: #e7e7e7; /* define uma cor de fundo */
+        transition: 0.6s; /* define uma transição */
+        z-index: 1000; /*  sobrepõe o z-index com um valor menor */
+        height: 0px; /* define uma altura */
+        visibility: hidden; /* define a visibilidade */
+        overflow-y: hidden; /* controla o comportamento de exibição verticalmente */
     }
-
+    /* define uma configuração para classe .logo */
     .logo {
-        margin-left: 5px;
-        width: 150px;
-        height: auto;
+        margin-left: 5px; /* define a margem esquerda */
+        width: 150px; /* define a largura */
+        height: auto; /* define uma altura automatica */
     }
-
+    /* define uma configuração para o id menu dentro do elemento que tenha o id nav e a classe .active */
     #nav.active #menu {
-        height: calc(100vh - 70px);
-        visibility: visible;
-        overflow-y: auto;
-        margin-top: 50px;
+        height: calc(100vh - 70px); /* define uma altura */
+        visibility: visible; /* define a visibilidade */
+        overflow-y: auto; /* controla o comportamento de exibição verticalmente */
+        margin-top: 50px; /* define uma margem para o topo */
     }
-
+    /* define uma configuração para o link dentro do id menu */
     #menu a {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        padding: 1rem 0; /* define o espaçamento inferior */
+        margin: 0 1rem; /* define uma margem */
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05); /* define uma borda redonda */
     }
-
+    /* definições para o id btn-mobile */
     #btn-mobile {
-        display: flex;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: 0.5rem;
+        display: flex; /* permite com que modifique o posicionamento do objeto */
+        padding: 0.5rem 1rem; /* define o espaçamento inferior */
+        font-size: 1rem; /* define o tamanho da fonte */
+        border: none; /* remove a borda */
+        background: none; /* remove o fundo */
+        cursor: pointer; /* define o cursor para clicavel */
+        gap: 0.5rem; /* define um espaçamento entre os itens */
     }
-
+    /* definições para o id hamburger */
     #hamburger {
-        border-top: 2px solid;
-        width: 20px;
+        border-top: 2px solid; /* define a configuração para o topo da borda */
+        width: 20px; /* define uma largura */
     }
-
+    /* definições para antes e apos a transição do id hamburger */
     #hamburger::after,
     #hamburger::before {
-        content: "";
-        display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
+        content: ""; /* define o conteudo para vazio */
+        display: block; /* não permite com que mude o posicionamento do objeto */
+        width: 20px; /* define uma largura */
+        height: 2px; /* define uma altura */
+        background: currentColor; /* define o fundo para a cor atual */
+        margin-top: 5px; /* define uma margem para o topo */
+        transition: 0.3s; /* define uma transição */
+        position: relative; /* define a posição relativa */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active */
     #nav.active #hamburger {
-        border-top-color: transparent;
+        border-top-color: transparent; /* define a cor do topo da borda para transparente */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active antes */
     #nav.active #hamburger::before {
-        transform: rotate(135deg);
+        transform: rotate(135deg); /* faz uma rotação para 135 graus */
     }
-
+    /* define uma configuração para o id hamburger dentro do elemento que tenha o id nav e a classe .active depois */
     #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
+        transform: rotate(-135deg); /* faz uma rotação para -135 graus */
+        top: -7px; /* define o topo para -7 pixels */
     }
 
     /* ! footer */
     .footer-col {
-        width: 100%;
+        width: 100%; /* define uma largura */
     }
 }
