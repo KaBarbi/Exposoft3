@@ -1,41 +1,41 @@
 body{
-    background-color: #ACACAC;
+    background-color: #ACACAC; /*  cor de fundo*/
 }
-
+/* formulario para se logar*/
 .form{
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    text-align: center;
+    display: flex; /*  tela flexivel*/
+    flex-direction:column ; /*  direção do flex*/
+    align-items: center; /*  alinhando itens do formulario para o centro*/
+    text-align: center; /*  deixando os textos alinhados no centro*/
 }
-
+/* logo do site como botao para voltar */
 .logo{
-    width: 150px;
-    height: auto;
+    width: 150px; /*  definindo a largura para 150 pixeis*/
+    height: auto; /*  definindo uma altura automaticamente*/
 }
 
 .iconcl{
-    color: blue;
-    font-size: 35px;
+    color: blue; /*  definindo a cor para azul*/
+    font-size: 35px; /*  definindo o tamanho da fonte*/
 }
 
 .container-cad{
-    background-color: #83b4ff;
-    border: solid black 2px;
-    border-radius: 5px;
-    width: 25vw;
-    box-shadow: 10px 10px 20px black;
+    background-color: #83b4ff; /*  definindo a cor de fundo*/
+    border: solid black 2px; /* deixando a borda solida, definindo a cor e dando tamanho para borda*/
+    border-radius: 5px; /* arredonda a borda*/
+    width: 25vw; /*  define a largura*/
+    box-shadow: 10px 10px 20px black; /* definindo sombra e cor da sombra*/
 
 }
 
 .btn{
-    color: white ;
-    margin-top: 20px;
-    background-color: black;
-    border-radius: 10px;
-    width: 8vw;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 10px black;
+    color: white ; /* definindo a cor*/
+    margin-top: 20px; /* definindo uma margem na parte superior*/
+    background-color: black; /* definindo uma cor de fundo*/
+    border-radius: 10px; /* arredonda a borda*/
+    width: 8vw; /* definindo a largura*/
+    margin-bottom: 10px; /* definindo uma margem na parte inferior*/
+    box-shadow: 0px 0px 10px black; /* definindo sombra e cor da sombra*/
 }
 
 label{

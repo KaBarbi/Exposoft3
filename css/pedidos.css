@@ -1,83 +1,84 @@
 /* CSS */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #c7c7c7;
+    font-family: Arial, sans-serif; /* muda fonte do texto */
+    margin: 0; /* definindo margem */
+    padding: 0; /* espaçamento interior */
+    background-color: #c7c7c7; /* cor de fundo */
 }
-
+/* logo do site como botao para voltar */
 .logo {
-    width: 100%;
-    max-width: 120px;
-    height: auto;
+    width: 100%;/* definindo largura */
+    max-width: 120px; /* definindo uma largura maxima */
+    height: auto; /* define uma autura altomatica */
 }
-
+/* titulo */
 .titulo-h {
-    text-align: center;
-    margin: 0;
+    text-align: center; /*  alinhando os textos no centro*/
+    margin: 0; /* definindo margem */
 }
-
+/* cabeçalho da pagina */
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #007bff;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bold;
+    display: flex; /* tela flexivel */
+    align-items: center; /* alinhando itens ao centro */
+    justify-content: center; /* justifica o conteudo para o centro */
+    background-color: #007bff; /* define a cor de fundo */
+    padding: 10px; /* espaçamento interior */
+    font-size: 18px; /* tamanho da fonte */
+    font-weight: bold; /* muda a espeçura da fonte */
 }
-
+/* container da logo */
 .logo-container {
-    margin-right: 20px;
+    margin-right: 20px; /* definindo a margem para parte direita */
 }
-
+/* definindo configurações para o link no cabeçalho */
 #header a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
+    display: flex; /* tela flexivel */
+    align-items: center; /* alinhando itens ao centro */
+    text-decoration: none; /* removendo a decoração de texto */
+    color: #fff; /* definindo cor */
 }
-
+/* container da tabela */
 .table-container {
-    margin: 20px auto;
-    max-width: 800px;
-    overflow-x: auto;
+    margin: 20px auto; /* definindo uma margem de 20 pixeis automatica */
+    max-width: 800px; /* defininfo uma largura maxima */
+    overflow-x: auto; /* comportamento de exibição do conteúdo horizontal */
 }
-
+/* tabela */
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* define a largura */
+    border-collapse: collapse; /* definir o comportamento de colapso das bordas */
 }
-
+/* define os campos da linha da tabela */
 th,
 td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #fff;
+    padding: 10px; /* espaçamento interior */
+    text-align: left; /* define o alinhamento do texto para esquerda */
+    border-bottom: 1px solid #fff; /* define a borda de baixo */
 }
-
+/* define o campo da linha */
 th {
-    background-color: #f8f9fa;
-    position: sticky;
-    top: 0;
+    background-color: #f8f9fa;/* define a cor de fundo */
+    position: sticky; /* define a posição */
+    top: 0; /* define o topo */
 }
-
+/* container do endereço */
 .endereco {
-    display: none;
-    margin: 20px auto;
-    max-width: 400px;
-    border: 1px solid #fff;
-    padding: 20px;
+    display: none; /* remove o display */
+    margin: 20px auto; /* define a margem para 20 pixeis automatico */
+    max-width: 400px; /* define o maximo de largura */
+    border: 1px solid #fff; /* define a configuração da borda */
+    padding: 20px; /* espaçamento interior */
 }
-
+/* define a configuração para o tamanho de tela especificado */
 @media screen and (max-width: 600px) {
+    /* define os campos da linha da tabela  */
     th,
     td {
-        font-size: 14px;
+        font-size: 14px;/* define o tamanho da fonte */
     }
-
+    /* Define o conteiner do titulo */
     .titulo-container {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0; /* define a margem para esquerda */
+        margin-right: 0; /* define a margem para direita */
     }
 }

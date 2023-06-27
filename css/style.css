@@ -1,287 +1,284 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
+/* define todos elementos */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* define a margem para 0 */
+    padding: 0; /* define o espaçamento inferior para 0 */
+    box-sizing: border-box; /* define o tamanho da caixa */
 }
-
+/* define o corpo da pagina */
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-color: #acacac;
-    font-family: sans-serif;
-    text-transform: capitalize;
+    margin: 0px; /* define a margem */
+    padding: 0px; /* define o espaçamento inferior */
+    width: 100%; /* define a largura */
+    height: 100vh; /* define a autura */
+    position: relative; /* define a posição */
+    background-color: #acacac; /* define a cor de fundo */
+    font-family: sans-serif; /* define a fonte da familia */
+    text-transform: capitalize; /* define uma transformação do texto */
 }
 
 /*TODO: css menu começa aqui */
 ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px; /* define a margem */
+    padding: 0px; /* define o espaçamento inferior */
 }
-
+/* define um container do menu */
 .a_menu {
-    color: black;
-    text-decoration: none;
-    font-family: sans-serif;
-    align-items: center;
-    border: #000 solid 1px;
-    border-radius: 5%;
+    color: black; /* define a cor */
+    text-decoration: none; /* remove a decoração do texto */
+    font-family: sans-serif; /* define a familia da fonte */
+    align-items: center; /* define o alinhamento dos itens para o centro */
+    border: #000 solid 1px; /* da uma definição para borda */
+    border-radius: 5%; /* define o arrendondamento da borda */
 }
 
 /* icones de carrinho e login */
 .iconlb {
-    border: none;
-    padding: 10px;
-    color: #000;
+    border: none; /* remove a borda */
+    padding: 10px; /* define o espaçamento inferior */
+    color: #000; /* define uma cor */
 }
 
 /* hover dos links de paginas menu */
 a:hover {
-    background: rgba(0, 0, 0, 0.05);
-    /* background: #83b4ff; */
+    background: rgba(0, 0, 0, 0.05);/* define a cor de fundo */
 }
 
 /* logo do site imagem */
 .logo {
-    margin-left: 20px;
-    width: 170px;
-    height: auto;
+    margin-left: 20px; /* define a margem esquerda */
+    width: 170px; /* define a largura */
+    height: auto; /* define a altura para automatico */
 }
 
 /* menu inteiro */
 #header {
-    box-sizing: border-box;
-    height: 150px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #e7e7e7;
+    box-sizing: border-box; /* define o tamanho da borda */
+    height: 150px; /* define a altura */
+    padding: 1rem; /* define o espaçamento inferior */
+    display: flex; /* tela flexivel */
+    align-items: center; /* alinha os itens para o centro */
+    justify-content: space-between; /* justifica o conteudo */
+    background: #e7e7e7; /* define a cor de fundo */
 }
 
 /* menu dos links para paginas central */
 #nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 2%;
-    align-items: center;
-    width: 100%;
+    display: flex; /* tela flexivel */
+    justify-content: center; /* justifica o conteudo para centro */
+    margin-left: 2%; /* define a margem para esquerda */
+    align-items: center; /* define os itens para o centro */
+    width: 100%; /* define a largura */
 }
 
 /* dic para o login e carrinho */
 .nav-buttons {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 25px;
-    gap: 0.5rem;
+    display: flex; /* tela flexivel */
+    align-items: center; /* alinha os itens para o centro */
+    margin-left: auto; /* define a margem para esquerda */
+    margin-right: 25px; /* define uma margem para direita */
+    gap: 0.5rem; /* define o espaçamento entre os itens */
 }
 /* css para o botao sair ficar embaixo do login */
 .user-info {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    text-align: right;
+    display: flex; /* tela flexivel */
+    flex-direction: column; /* define a direção da tela */
+    margin-left: auto; /* define a margem para automatico */
+    text-align: right; /* define o alinhamento do texto para direita */
 }
-
+/* define a configuração do elemento */
 #menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 0.5rem;
-    margin: 0 auto;
-    /* centraliza o menu */
-    margin-left: 250px;
-    /* adiciona uma margem esquerda*/
+    display: flex; /* tela flexivel */
+    justify-content: center; /* justifica o conteudo para o centro */
+    align-items: center; /* alinha os itens para o centro */
+    list-style: none; /* remove a lista de estilos */
+    gap: 0.5rem; /* espaçamento entre os itens */
+    margin: 0 auto; /* define uma margem */
+    margin-left: 250px;/* adiciona uma margem esquerda*/
 }
-
+/* define as configurações para o botão sair */
 .sair-btn{
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte da familia */
+    color: red; /* define a cor */
+    text-decoration: none; /* remove a decoração do texto */
 }
-
+/* define as configurações dos links */
 .cart a,
 .login a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
+    display: flex; /* tela flexivel */
+    align-items: center; /* alinha os itens para o centro */
+    justify-content: center; /* justifica o conteudo para o centro */
+    padding: 0.5rem; /* define o espaçamento inferior */
 }
-
+/* define o icone */
 .cart i {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* define o tamanho da fonte */
 }
-
+/* define os links do menu */
 #menu a {
-    display: block;
-    padding: 0.7rem;
+    display: block; /* define o display para block */
+    padding: 0.7rem; /* define o espaçamento inferior */
 }
-
+/* define o botão mobile */
 #btn-mobile {
-    display: none;
+    display: none; /* define para não aparecer */ 
 }
 
 /* TODO: Content home */
 
 /** div imagens index topo */
 .baanners {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 5%; */
+    display: flex;/* tela flexivel */
+    flex-direction: column; /* define a direção do display */
+    justify-content: center; /* justifica o conteudo para centro */
+    align-items: center; /* alinha os itens para o centro */
+    
 }
 
 /** imagem principal abaixo do menu */
 .xuxu {
-    width: 1100px;
-    height: auto;
-    padding: 5%;
+    width: 1100px; /* define a largura */
+    height: auto; /* define a altura para automatico */
+    padding: 5%; /* define o espaçamento inferior */
 }
 
 /** segunda imagem da index */
 .abobrinha {
-    width: 1200px;
-    height: 200px;
-    padding: 2%;
+    width: 1200px; /* define a largura */
+    height: 200px; /* define a altura */
+    padding: 2%; /* define o espaçamento inferior */
 }
 
 /* *titulo produtos destaque  */
 .titulo-paginas {
-    max-width: 500px;
+    max-width: 500px; /* define a largura maxima */
     margin: 0 auto; /* centraliza o contêiner */
-    text-align: center;
+    text-align: center; /* centraliza o texto */
 }
-
+/* configura o titulo */
 h1 {
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 3px solid #83b4ff;
+    padding: 30px; /* define o espaçamento inferior */
+    font-family: Arial, Helvetica, sans-serif; /* define a familia da fonte */
+    border-bottom: 3px solid #83b4ff; /* define a borda de baixo */
 }
 
 /* TODO: css card de produtos */
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    display: flex; /* tela flexivel */
+    justify-content: space-evenly; /* justifica o conteudo */
+    flex-wrap: wrap; /* quebra de itens em linha */
+    margin: 0 auto; /* define a margem */
 }
-
+/* define o container e o card do produto */
 .container .product-card {
-    background: #fafafa;
-    padding: 7px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 15px;
+    background: #fafafa; /*define a cor de fundo  */
+    padding: 7px; /* define o espaçamento inferior */
+    margin: 20px; /* define a margem */
+    text-align: center; /* centraliza o texto */
+    border-radius: 15px; /* faz a borda ficar redonda */
 }
-
+/* define o conteiner do produto */
 .container .product {
-    background: #fafafa;
-    padding: 7px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 15px;
+    background: #fafafa;/* define a cor de fundo */
+    padding: 7px; /* define o espaçamento inferior */
+    margin: 20px; /* define a margem */
+    text-align: center; /* centraliza o texto */
+    border-radius: 15px; /* deixa a borda redonda */
     height: 400px; /* altura fixa para o produto */
 }
-
+/* define o conteiner da imagem */
 .container .product .image {
     height: 250px; /* altura fixa para a imagem */
-    margin: auto;
+    margin: auto; /* define a margem */
 }
-
+/* define o container da imagem do produto */
 .container .product .image .product-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    transition: 0.8s linear;
+    width: 100%; /* define a largura */
+    height: 100%; /* define a altura */
+    object-fit: contain; /* para imagem preencher todo campo da div */
+    transition: 0.8s linear; /* faz uma transição linear */ 
 }
-
+/* define a configuração do titulo do produto */
 .container .product .title {
-    font-size: 22px;
-    text-align: center;
+    font-size: 22px; /*  define o tamanho do texto*/
+    text-align: center; /* para alinhar o texto ao centro */
 }
-
+/* define a configuração do detalhe do produto */
 .container .product .detail {
-    text-align: center;
+    text-align: center; /* centraliza o texto */
 }
-
+/* define o texto do detalhe do produto */
 .container .product .detail p {
-    margin: 15px;
-    font-size: 25px;
+    margin: 15px; /* define a margem */
+    font-size: 25px; /* define o tamnho da fonte */
 }
-
+/* define a configuração do span do detalhe do produto */
 .container .product .detail p span {
-    color: blue;
+    color: blue;/* define a cor para azul */
 }
-
+/*  define a configuração do link do detalhe do produto */
 .container .product .detail a {
-    text-decoration: none;
-    background: rgb(12, 77, 255);
-    padding: 8px 45px;
-    border-radius: 8px;
-    color: white;
-    margin: 15px;
+    text-decoration: none;/* remove a decoração do texto */
+    background: rgb(12, 77, 255); /* define a cor de fundo */
+    padding: 8px 45px; /* define o espaçamento inferior */
+    border-radius: 8px; /* faz a borda ficar redonda */
+    color: white; /* define a cor */
+    margin: 15px; /* define a margem */
 }
 
 /* TODO: config dos videos abaixo */
 
 .videos-all {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+    display: flex; /* tela flexivel */
+    justify-content: space-evenly; /* justifica o conteudo */
+    margin-bottom: 50px; /* define uma margem para a parte inferior */
 }
 
 /* TODO: FOOTER CSS */
 
 .pFooter {
-    color: #5a5a5a;
-    text-transform: lowercase;
+    color: #5a5a5a;/* define a cor */
+    text-transform: lowercase; /* define uma transformação prara o texto */
 }
-
+/* container do footer */
 .container-footer {
-    max-width: 1170px;
-    margin: auto;
+    max-width: 1170px; /* define o maximo da largura */ 
+    margin: auto; /* define uma margem automatica */
 }
-
+/* define a configuração do rodapé */
 .footer {
-    background-color: #e7e7e7;
-    padding: 70px 0;
+    background-color: #e7e7e7; /* define uma cor de fundo */
+    padding: 70px 0; /* define o espaçamento inferior */
 }
-
+/* configuração da linha */
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* tela flexivel */
+    flex-wrap: wrap; /* quebra de itens em linha */
 }
-
+/* define o tamnho do rodapé */
 .footer-col {
-    width: 25%;
-    padding: 0 15px;
+    width: 25%; /* define a largura */ 
+    padding: 0 15px; /* define o espaçamento inferior */
 }
-
+/* da configuração para o titulo */
 .footer-col h4 {
-    font-size: 18px;
-    color: #000;
-    margin-bottom: 25px;
-    font-weight: 500;
-    position: relative;
+    font-size: 18px; /* tamnho da fonte */
+    color: #000; /* define uma cor */
+    margin-bottom: 25px; /* define uma margem na parte inferior */
+    font-weight: 500; /* define a grossura da fonte */
+    position: relative; /* define a posição */
 }
-
+/* da configuração para o titulo antes */
 .footer-col h4::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background: rgb(0, 25, 255);
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
+    content: ""; /* define o conteudo */
+    position: absolute; /* define a posição */
+    left: 0; /* esquerda */
+    bottom: -10px; /* parte inferior */
+    background: rgb(0, 25, 255); /*  cor de fundo*/
+    height: 2px; /* define a altura */
+    box-sizing: border-box; /* define o tamanho da box */
+    width: 50px; /* define a largura */
 }
 
 .footer-col ul {
